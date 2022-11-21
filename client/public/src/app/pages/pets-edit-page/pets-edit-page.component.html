@@ -1,0 +1,51 @@
+<div class="pets-edit-page-container">
+    <div class="header-section">
+        <div><h1>Pet Shelter</h1></div>
+        <div><h2>Edit this pet</h2></div>
+    </div>
+    <div>
+        <div class="red" *ngIf="errorMsg">
+            {{errorMsg}}
+        </div>
+        <div class="form-container">
+            <div class="form-main">
+                <div>
+                    <label for="name">Pet name:</label>
+                    <input id="name" type="text" [(ngModel)]="pet.name">
+                </div>
+                <div>
+                    <label for="type">Pet type:</label>
+                    <input id="type" type="text" [(ngModel)]="pet.type">
+                </div>
+                <div>
+                    <label for="description">Description:</label>
+                    <input id="description" type="text" [(ngModel)]="pet.description">
+                </div>
+            </div>
+            <div>
+                <section>
+                    <div><header>Skills (Optional)</header></div>
+                    <div class="form-skills-input">
+                        <div>
+                            <label for="skill1">Skill 1:</label>
+                            <input type="text" [(ngModel)]="pet.skill1">
+                        </div>
+                        <div>
+                            <label for="skill2">Skill 2:</label>
+                            <input type="text" [(ngModel)]="pet.skill2">
+                        </div>
+                        <div>
+                            <label for="skill3">Skill 3:</label>
+                            <input type="text" [(ngModel)]="pet.skill3">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="buttons">
+                <button (click)="onEditBtn()">Edit pet</button>
+                <button [routerLink]="['/']">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+</div>

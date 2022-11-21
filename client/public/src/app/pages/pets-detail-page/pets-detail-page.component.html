@@ -1,0 +1,36 @@
+<div class="pets-detail-page-container">
+    <div class="header-section">
+        <header>
+            <div><h1>Pet Shelter</h1></div><div><a [routerLink]="['/']">Home</a></div>
+        </header>
+        <div><h2>Details about {{pet.name}}</h2></div>
+    </div>
+    <div class="details">
+        <div class="row">
+            <div>Pet type:</div>
+            <div>{{pet.type}}</div>
+        </div>
+        <div class="row">
+            <div>Description:</div>
+            <div>{{pet.description}}</div>
+        </div>
+        <div>
+            <section>
+                <div><header>Skills:</header></div>
+                <div>
+                    <div>{{pet.skill1}}</div>
+                    <div>{{pet.skill2}}</div>
+                    <div>{{pet.skill3}}</div>
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <div>Likes:</div>
+            <div>{{pet.likes}}</div>
+        </div>
+        <div class="buttons">
+            <button (click)="onLikeBtn()">Like this pet</button>
+            <button (click)="onAdoptBtn()">Adopt this pet</button>
+        </div>
+    </div>
+</div>

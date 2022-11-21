@@ -1,0 +1,80 @@
+.pets-page-container h1 {
+    margin: 0;
+}
+
+.pets-page-container .header-section {
+    margin: 0;
+}
+
+.pets-page-container .header-section > div {
+    margin-top: 0;
+}
+
+.pets-page-container h2 {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.pets-page-container > div {
+    margin: 0.7em;
+}
+
+.pets-page-container a {
+    font-size: 1.1em;
+}
+
+.pets-page-container table {
+    border: 1px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 1.2em;
+}
+
+.pets-page-container table button {
+    width: 5em;
+    border: 0;
+    height: 2em;
+    border-radius: 5px;
+    font-size: 0.6em;
+}
+
+.pets-page-container table button:hover {
+    cursor: pointer;
+}
+
+.pets-page-container table th {
+    text-align: left;
+}
+
+.pets-page-container table th, .pets-page-container table td {
+    border: 1px solid black;
+    width: 8em;
+    height: 2.5em;
+    padding-left: 0.3em;
+}
+
+.pets-page-container .buttons {
+    text-align: center;
+}
+
+.pets-page-container .buttons button {
+    color: white;
+}
+
+.pets-page-container .buttons button:first-child {
+    margin-right: 0.5em;
+    background-color: #c5d1e3;
+}
+
+.pets-page-container .buttons button:last-child {
+    margin-right: 0.5em;
+    background-color: #d4c7b6;
+}
+
+.pets-page-container table tr:nth-child(even), .pets-page-container table thead tr {
+    background-color: #d3d3d3;
+}
+
+.pets-page-container table thead tr {
+   color: white;
+}

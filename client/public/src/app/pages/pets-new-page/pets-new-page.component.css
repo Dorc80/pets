@@ -1,0 +1,85 @@
+.pets-new-page-container h1 {
+    margin: 0;
+}
+
+.pets-new-page-container .header-section > div {
+    margin-top: 0;
+}
+
+.pets-new-page-container>div {
+    margin: 1em;
+}
+
+.pets-new-page-container>div:first-child {
+    margin-top: 0;
+}
+
+.pets-new-page-container h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.pets-new-page-container .form-main label {
+    display: block;
+}
+
+.pets-new-page-container .new-form {
+    border: 1px solid black;
+    padding: 1em 1em;
+    width: 27em;
+}
+
+.pets-new-page-container .new-form input {
+    width: 14em;
+    height: 2em;
+}
+
+.pets-new-page-container .purple {
+    color: #9f66f8;
+}
+
+.pets-new-page-container .form-main>div {
+    margin-top: 0.5em;
+}
+
+.pets-new-page-container .form-main>div:first-child {
+    margin-top: 0;
+}
+
+.pets-new-page-container .form-skills-input {
+    margin-left: 0.5em;
+}
+
+.pets-new-page-container .form-skills-input>div {
+    margin-top: 0.5em;
+}
+
+.pets-new-page-container .new-form section {
+    margin-top: 0.3em;
+}
+
+.pets-new-page-container .form-skills-input label {
+    margin-right: 0.4em;
+}
+
+.pets-new-page-container .buttons {
+    margin-top: 0.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pets-new-page-container .buttons button {
+    background-color: #7bb9f9;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    margin: 0 0.6em;
+    height: 1.5em;
+    width: 5em;
+    border-radius: 5px;
+}
+
+.pets-new-page-container .red {
+    color: red;
+    width: 27em;
+}

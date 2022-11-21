@@ -1,0 +1,6 @@
+.pet-component-container td {
+    border: 1px solid black;
+    width: 8em;
+    height: 2.5em;
+    padding-left: 0.3em;
+}

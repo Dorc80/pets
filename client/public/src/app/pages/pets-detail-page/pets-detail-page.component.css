@@ -1,0 +1,71 @@
+.pets-detail-page-container h1 {
+    margin: 0;
+    margin-right: 5em;
+}
+
+.pets-detail-page-container .header-section {
+    margin-top: 0;
+}
+
+.pets-detail-page-container .header-section > div {
+    margin-top: 0;
+}
+
+.pets-detail-page-container header {
+    display: flex;
+    align-items: center;
+}
+
+.pets-detail-page-container > div {
+    margin: 1em;
+}
+
+.pets-detail-page-container h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.pets-detail-page-container .row > div {
+    display: inline-block;
+}
+
+.pets-detail-page-container .row > div:first-child, .pets-detail-page-container section > div:first-child {
+    font-weight: bold;
+    width: 6em;
+    text-align: center;
+    margin-right: 0.7em;
+}
+
+.pets-detail-page-container section {
+    display: flex;
+}
+
+.pets-detail-page-container .details {
+    font-size: 1.2em;
+}
+
+.pets-detail-page-container .details > div {
+    margin-top: 1em;
+}
+
+.pets-detail-page-container .buttons {
+    margin-top: 2em !important;
+}
+
+.pets-detail-page-container .buttons button {
+    width: 8em;
+    height: 3em;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 0.6em;
+}
+
+.pets-detail-page-container .buttons button:first-child {
+    background-color: #bcc7da;
+    margin-right: 1em;
+}
+
+.pets-detail-page-container .buttons button:last-child {
+    background-color: #b4c3ba;
+}
