@@ -10,6 +10,10 @@ app.use(cors());
 app.use(express.json());
 app.use(require('./server/config/routes'));
 
+app.all("*", (req, res) => {
+    res.sendFile(path.resolve("./client/public/dist/frontend/index.html"))
+});
+
 app.listen(port, () => {
     console.log(`listening on ${port}`);
 });
